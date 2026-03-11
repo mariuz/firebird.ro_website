@@ -1,4 +1,52 @@
-# Getting Started with Create React App
+# firebird.ro Website
+
+**Live site:** [https://firebird.ro](https://firebird.ro)
+
+## Overview
+
+This is the source code for **firebird.ro**, the Romanian community website for the [Firebird open-source database](https://www.firebirdsql.org/). It provides news, documentation, downloads, community resources, and support information in Romanian.
+
+The project is a single-page application (SPA) built with React and `react-router-dom`, featuring the following pages:
+
+| Route | Page | Description |
+|---|---|---|
+| `/` | Home | Landing page |
+| `/documentatie` | Documentation | Firebird documentation resources |
+| `/descarcari` | Downloads | Links to download Firebird |
+| `/comunitate` | Community | Community resources and events |
+| `/suport` | Support | Support channels and help |
+| `/dezvoltare` | Development | Development resources |
+
+## Project Structure
+
+```
+firebird.ro_website/
+├── public/               # Static assets and HTML template
+│   ├── index.html
+│   ├── favicon.ico
+│   └── manifest.json
+├── src/
+│   ├── components/       # Shared UI components
+│   │   ├── Header.js     # Site-wide navigation header
+│   │   ├── Header.css
+│   │   ├── Footer.js     # Site-wide footer
+│   │   └── Footer.css
+│   ├── pages/            # One component per route
+│   │   ├── Home.js
+│   │   ├── Documentation.js
+│   │   ├── Downloads.js
+│   │   ├── Community.js
+│   │   ├── Support.js
+│   │   └── Development.js
+│   ├── App.js            # Root component with router configuration
+│   ├── App.css
+│   ├── index.js          # Application entry point
+│   └── index.css
+├── package.json
+└── README.md
+```
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
