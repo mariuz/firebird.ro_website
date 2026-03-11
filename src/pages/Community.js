@@ -15,7 +15,7 @@ const communityLinks = [
     title: 'Liste de discuții (Mailing Lists)',
     desc: 'Participați la discuțiile comunității prin intermediul listelor de emailuri. Există liste separate pentru utilizatori, dezvoltatori și alte subiecte specifice.',
     links: [
-      { label: 'Toate listele de discuții', href: 'https://firebirdsql.org/en/firebird-mailing-lists/' },
+      { label: 'Toate listele de discuții', href: 'https://firebirdsql.org/en/mailing-lists/' },
       { label: 'firebird-support (utilizatori generali)', href: 'https://groups.google.com/g/firebird-support' },
       { label: 'firebird-devel (dezvoltatori)', href: 'https://groups.google.com/g/firebird-devel' },
     ],
