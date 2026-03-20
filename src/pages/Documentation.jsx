@@ -6,7 +6,7 @@ const docSections = [
     title: 'Ghid de început rapid',
     desc: 'Instalarea Firebird, crearea primei baze de date și efectuarea primelor interogări SQL.',
     links: [
-      { label: 'Ghid de start rapid (RO)', href: 'https://firebirdsql.org/file/documentation/pdf/en/firebird-2.1-quickstartguide.pdf' },
+      { label: 'Ghid de start rapid Firebird 3.0', href: 'http://www.firebirdsql.org/file/documentation/reference_manuals/user_manuals/html/qsg3.html' },
       { label: 'Instalare Firebird', href: 'https://firebirdsql.org/en/getting-firebird/' },
     ],
   },
@@ -23,8 +23,8 @@ const docSections = [
     title: 'Note de lansare',
     desc: 'Informații despre funcționalitățile noi, modificările și corecțiile de erori din fiecare versiune.',
     links: [
-      { label: 'Note lansare Firebird 5.0', href: 'https://firebirdsql.org/file/documentation/release_notes/Firebird-5.0.0-ReleaseNotes.pdf' },
-      { label: 'Note lansare Firebird 4.0', href: 'https://firebirdsql.org/file/documentation/release_notes/Firebird-4.0-ReleaseNotes.pdf' },
+      { label: 'Note lansare Firebird 5.0.3', href: 'https://www.firebirdsql.org/file/documentation/release_notes/Firebird-5.0.3-ReleaseNotes.pdf' },
+      { label: 'Note lansare Firebird 4.0.6', href: 'https://www.firebirdsql.org/file/documentation/release_notes/Firebird-4.0.6-ReleaseNotes.pdf' },
     ],
   },
   {
