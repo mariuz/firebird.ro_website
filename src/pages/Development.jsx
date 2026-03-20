@@ -55,9 +55,9 @@ const devResources = [
 ];
 
 const releases = [
-  { version: 'Firebird 5.0', date: '2024-02-08', notes: 'https://firebirdsql.org/en/firebird-5-0/', type: 'Stabil' },
-  { version: 'Firebird 4.0', date: '2021-06-04', notes: 'https://firebirdsql.org/en/firebird-4-0/', type: 'LTS' },
-  { version: 'Firebird 3.0', date: '2016-04-19', notes: 'https://firebirdsql.org/en/firebird-3-0/', type: 'Întreținere' },
+  { version: 'Firebird 5.0.3', date: '2025-07-14', notes: 'http://www.firebirdsql.org/en/firebird-5-0-3/', type: 'Stabil' },
+  { version: 'Firebird 4.0.6', date: '2025-07-15', notes: 'http://www.firebirdsql.org/en/firebird-4-0-6/', type: 'LTS' },
+  { version: 'Firebird 3.0.13', date: '2025-07-15', notes: 'http://www.firebirdsql.org/en/firebird-3-0-13/', type: 'Întreținere' },
   { version: 'Firebird 2.5', date: '2010-10-04', notes: 'https://firebirdsql.org/en/firebird-2-5/', type: 'EOL' },
 ];
 
