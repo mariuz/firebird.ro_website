@@ -1,6 +1,6 @@
 .site-footer {
-  background-color: #1a1a2e;
-  color: #a0a0b0;
+  background-color: #17222b;
+  color: #b9bcbf;
   margin-top: auto;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .footer-col h3 {
-  color: #e94560;
+  color: #ff5555;
   font-size: 1.3rem;
   margin: 0 0 12px;
 }
@@ -46,14 +46,14 @@
 }
 
 .footer-col ul li a {
-  color: #a0a0b0;
+  color: #b9bcbf;
   text-decoration: none;
   font-size: 0.875rem;
   transition: color 0.2s;
 }
 
 .footer-col ul li a:hover {
-  color: #e94560;
+  color: #ff5555;
 }
 
 .footer-bottom {
@@ -74,7 +74,7 @@
 }
 
 .footer-bottom a:hover {
-  color: #e94560;
+  color: #ff5555;
 }
 
 @media (max-width: 900px) {

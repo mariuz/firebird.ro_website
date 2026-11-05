@@ -1,5 +1,5 @@
 .site-header {
-  background-color: #1a1a2e;
+  background-color: #17222b;
   color: #fff;
   position: sticky;
   top: 0;
@@ -8,7 +8,7 @@
 }
 
 .header-top {
-  background-color: #16213e;
+  background-color: #233340;
   padding: 12px 0;
 }
 
@@ -28,7 +28,7 @@
 }
 
 .logo-firebird {
-  color: #e94560;
+  color: #ff5555;
 }
 
 .logo-ro {
@@ -36,7 +36,7 @@
 }
 
 .header-tagline {
-  color: #a0a0b0;
+  color: #b9bcbf;
   font-size: 0.85rem;
   flex: 1;
   text-align: center;
@@ -65,16 +65,16 @@
 }
 
 .btn-primary {
-  background-color: #e94560;
+  background-color: #ff5555;
   color: #fff;
 }
 
 .btn-primary:hover {
-  background-color: #c73a52;
+  background-color: #e04444;
 }
 
 .main-nav {
-  background-color: #0f3460;
+  background-color: #2e6474;
 }
 
 .main-nav .container {
@@ -93,7 +93,7 @@
 .nav-list li a {
   display: block;
   padding: 14px 18px;
-  color: #c0cfe8;
+  color: #dcdedf;
   text-decoration: none;
   font-size: 0.925rem;
   font-weight: 500;
@@ -108,7 +108,7 @@
 
 .nav-list li a.active {
   color: #fff;
-  border-bottom-color: #e94560;
+  border-bottom-color: #ff5555;
   background-color: rgba(255, 255, 255, 0.05);
 }
 
@@ -146,7 +146,7 @@
     display: none;
     flex-direction: column;
     width: 100%;
-    background-color: #0f3460;
+    background-color: #2e6474;
   }
 
   .nav-list.open {
