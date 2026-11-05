@@ -5,27 +5,27 @@ import './Home.css';
 const newsItems = [
   {
     id: 1,
-    date: '2025-07-14',
-    title: 'Firebird 5.0.3 lansat',
+    date: '2026-04-17',
+    title: 'Firebird 5.0.4 lansat',
     excerpt:
-      'Echipa Firebird a lansat versiunea 5.0.3, care include corecții de erori și îmbunătățiri de performanță.',
-    link: 'https://github.com/FirebirdSQL/firebird/releases/tag/v5.0.3',
+      'Echipa Firebird a lansat versiunea 5.0.4, care include corecții de erori și îmbunătățiri de performanță.',
+    link: 'https://github.com/FirebirdSQL/firebird/releases/tag/v5.0.4',
   },
   {
     id: 2,
-    date: '2025-07-15',
-    title: 'Firebird 4.0.6 disponibil',
+    date: '2026-04-17',
+    title: 'Firebird 4.0.7 disponibil',
     excerpt:
       'O nouă versiune de mentenanță a seriei Firebird 4.0 LTS, cu corecții importante de stabilitate.',
-    link: 'https://github.com/FirebirdSQL/firebird/releases/tag/v4.0.6',
+    link: 'https://github.com/FirebirdSQL/firebird/releases/tag/v4.0.7',
   },
   {
     id: 3,
-    date: '2025-07-15',
-    title: 'Firebird 3.0.13 disponibil',
+    date: '2026-04-17',
+    title: 'Firebird 3.0.14 disponibil',
     excerpt:
-      'Versiunea 3.0.13 a Firebird corectează 15 erori și este disponibilă pentru descărcare.',
-    link: 'https://github.com/FirebirdSQL/firebird/releases/tag/v3.0.13',
+      'Versiunea 3.0.14 a Firebird include corecții și este disponibilă pentru descărcare.',
+    link: 'https://github.com/FirebirdSQL/firebird/releases/tag/v3.0.14',
   },
 ];
 
@@ -90,19 +90,19 @@ function Home() {
             <div className="hero-version">
               Versiunea curentă:{' '}
               <a
-                href="http://www.firebirdsql.org/en/firebird-5-0-3/"
+                href="http://www.firebirdsql.org/en/firebird-5-0-4/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Firebird 5.0.3
+                Firebird 5.0.4
               </a>{' '}
               |{' '}
               <a
-                href="http://www.firebirdsql.org/en/firebird-4-0-6/"
+                href="http://www.firebirdsql.org/en/firebird-4-0-7/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Firebird 4.0.6 LTS
+                Firebird 4.0.7 LTS
               </a>
             </div>
           </div>
@@ -156,20 +156,20 @@ function Home() {
           <div className="downloads-col">
             <h2 className="section-title">Descărcări rapide</h2>
             <div className="download-box">
-              <h3>Firebird 5.0.3 (Stabil)</h3>
+              <h3>Firebird 5.0.4 (Stabil)</h3>
               <ul className="download-list">
                 <li>
-                  <a href="http://www.firebirdsql.org/en/firebird-5-0-3/" target="_blank" rel="noopener noreferrer">
+                  <a href="http://www.firebirdsql.org/en/firebird-5-0-4/" target="_blank" rel="noopener noreferrer">
                     🪟 Windows (64-bit)
                   </a>
                 </li>
                 <li>
-                  <a href="http://www.firebirdsql.org/en/firebird-5-0-3/" target="_blank" rel="noopener noreferrer">
+                  <a href="http://www.firebirdsql.org/en/firebird-5-0-4/" target="_blank" rel="noopener noreferrer">
                     🐧 Linux (64-bit)
                   </a>
                 </li>
                 <li>
-                  <a href="http://www.firebirdsql.org/en/firebird-5-0-3/" target="_blank" rel="noopener noreferrer">
+                  <a href="http://www.firebirdsql.org/en/firebird-5-0-4/" target="_blank" rel="noopener noreferrer">
                     🍎 macOS (64-bit)
                   </a>
                 </li>
@@ -180,20 +180,20 @@ function Home() {
             </div>
 
             <div className="download-box">
-              <h3>Firebird 4.0.6 (LTS)</h3>
+              <h3>Firebird 4.0.7 (LTS)</h3>
               <ul className="download-list">
                 <li>
-                  <a href="http://www.firebirdsql.org/en/firebird-4-0-6/" target="_blank" rel="noopener noreferrer">
+                  <a href="http://www.firebirdsql.org/en/firebird-4-0-7/" target="_blank" rel="noopener noreferrer">
                     🪟 Windows (64-bit)
                   </a>
                 </li>
                 <li>
-                  <a href="http://www.firebirdsql.org/en/firebird-4-0-6/" target="_blank" rel="noopener noreferrer">
+                  <a href="http://www.firebirdsql.org/en/firebird-4-0-7/" target="_blank" rel="noopener noreferrer">
                     🐧 Linux (64-bit)
                   </a>
                 </li>
                 <li>
-                  <a href="http://www.firebirdsql.org/en/firebird-4-0-6/" target="_blank" rel="noopener noreferrer">
+                  <a href="http://www.firebirdsql.org/en/firebird-4-0-7/" target="_blank" rel="noopener noreferrer">
                     🍎 macOS (64-bit)
                   </a>
                 </li>
