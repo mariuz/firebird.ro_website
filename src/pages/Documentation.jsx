@@ -23,8 +23,8 @@ const docSections = [
     title: 'Note de lansare',
     desc: 'Informații despre funcționalitățile noi, modificările și corecțiile de erori din fiecare versiune.',
     links: [
-      { label: 'Note lansare Firebird 5.0.3', href: 'https://www.firebirdsql.org/file/documentation/release_notes/Firebird-5.0.3-ReleaseNotes.pdf' },
-      { label: 'Note lansare Firebird 4.0.6', href: 'https://www.firebirdsql.org/file/documentation/release_notes/Firebird-4.0.6-ReleaseNotes.pdf' },
+      { label: 'Note lansare Firebird 5.0.4', href: 'https://www.firebirdsql.org/file/documentation/release_notes/Firebird-5.0.4-ReleaseNotes.pdf' },
+      { label: 'Note lansare Firebird 4.0.7', href: 'https://www.firebirdsql.org/file/documentation/release_notes/Firebird-4.0.7-ReleaseNotes.pdf' },
     ],
   },
   {
