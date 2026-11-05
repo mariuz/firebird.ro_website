@@ -11,8 +11,8 @@ function Header() {
     <header className="site-header">
       <div className="header-top">
         <div className="container">
-          <Link to="/" className="site-logo">
-            <span className="logo-firebird">Firebird</span>
+          <Link to="/" className="site-logo" aria-label="Firebird.ro">
+            <img src="/logo-firebird.png" alt="Firebird" className="logo-img" />
             <span className="logo-ro">.ro</span>
           </Link>
           <div className="header-tagline">
