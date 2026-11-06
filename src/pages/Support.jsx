@@ -68,7 +68,6 @@ const supportGroups = [
         links: [
           { label: 'Suport comercial Firebird', href: 'https://firebirdsql.org/en/support/' },
           { label: 'IBPhoenix', href: 'https://firebirdsql.org/ibphoenix' },
-          { label: 'RED SOFT', href: 'https://firebirdsql.org/redsoft-red-soft' },
         ],
       },
     ],
