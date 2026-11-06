@@ -387,6 +387,39 @@
 }
 
 /* Support grid */
+.support-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 28px;
+}
+
+.support-nav a {
+  padding: 6px 14px;
+  border: 1px solid #e2e6e8;
+  border-radius: 20px;
+  color: #2e6474;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.support-nav a:hover {
+  background: #2e6474;
+  color: #fff;
+}
+
+.support-section {
+  scroll-margin-top: 90px;
+}
+
+.support-section-title {
+  font-size: 1.3rem;
+  color: #17222b;
+  margin: 0 0 16px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #ff5555;
+}
+
 .support-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -411,7 +444,7 @@
   margin-bottom: 10px;
 }
 
-.support-card h2 {
+.support-card h3 {
   font-size: 1rem;
   font-weight: 700;
   color: #2e6474;

@@ -1,59 +1,79 @@
 import React from 'react';
 import './PageCommon.css';
 
-const supportOptions = [
+const supportGroups = [
   {
-    icon: '📋',
-    title: 'Întrebări frecvente (FAQ)',
-    desc: 'Găsiți răspunsuri la cele mai comune întrebări despre instalarea, configurarea și utilizarea Firebird.',
-    links: [
-      { label: 'FAQ pentru utilizatori noi', href: 'https://firebirdsql.org/en/faq-for-new-users/' },
-      { label: 'FAQ tehnic', href: 'https://firebirdsql.org/en/technical-faq/' },
+    id: 'gratuit',
+    title: 'Suport gratuit din partea comunității',
+    options: [
+      {
+        icon: '📋',
+        title: 'Întrebări frecvente (FAQ)',
+        desc: 'Răspunsuri la cele mai comune întrebări despre instalarea, configurarea și utilizarea Firebird.',
+        links: [
+          { label: 'Firebird FAQ (firebirdfaq.org)', href: 'http://www.firebirdfaq.org/' },
+          { label: 'FAQ pe firebirdsql.org', href: 'https://firebirdsql.org/en/faq/' },
+        ],
+      },
+      {
+        icon: '📧',
+        title: 'Liste de discuții',
+        desc: 'Listele de emailuri ale comunității Firebird sunt principalul canal de suport gratuit.',
+        links: [
+          { label: 'firebird-support (asistență generală)', href: 'https://groups.google.com/g/firebird-support' },
+          { label: 'Toate listele de discuții', href: 'https://firebirdsql.org/en/mailing-lists/' },
+        ],
+      },
+      {
+        icon: '❓',
+        title: 'Stack Overflow',
+        desc: 'Puneți întrebări tehnice folosind tag-ul [firebird] pentru răspunsuri rapide.',
+        links: [
+          { label: 'Întrebări Firebird pe Stack Overflow', href: 'https://stackoverflow.com/questions/tagged/firebird' },
+        ],
+      },
     ],
   },
   {
-    icon: '📧',
-    title: 'Liste de discuții',
-    desc: 'Listele de emailuri ale comunității Firebird sunt principalul canal de suport din partea comunității.',
-    links: [
-      { label: 'firebird-support (asistență generală)', href: 'https://groups.google.com/g/firebird-support' },
-      { label: 'Toate listele de discuții', href: 'https://firebirdsql.org/en/firebird-mailing-lists/' },
+    id: 'resurse',
+    title: 'Resurse pentru auto-ajutorare',
+    options: [
+      {
+        icon: '📚',
+        title: 'Documentație',
+        desc: 'Ghiduri complete, note de lansare și referințe SQL.',
+        links: [
+          { label: 'Documentație Firebird', href: '/documentatie' },
+          { label: 'Toate manualele de referință', href: 'https://firebirdsql.org/en/reference-manuals/' },
+        ],
+      },
+      {
+        icon: '🐛',
+        title: 'Raportarea erorilor',
+        desc: 'Ați găsit o eroare în Firebird? Raportați-o în sistemul de urmărire a problemelor de pe GitHub.',
+        links: [
+          { label: 'Raportați o eroare pe GitHub', href: 'https://github.com/FirebirdSQL/firebird/issues' },
+        ],
+      },
     ],
   },
   {
-    icon: '❓',
-    title: 'Stack Overflow',
-    desc: 'Puneți întrebări tehnice pe Stack Overflow folosind tag-ul [firebird] pentru răspunsuri rapide.',
-    links: [
-      { label: 'Întrebări Firebird pe Stack Overflow', href: 'https://stackoverflow.com/questions/tagged/firebird' },
-    ],
-  },
-  {
-    icon: '🏢',
+    id: 'comercial',
     title: 'Suport comercial',
-    desc: 'Companii și consultanți care oferă suport profesional comercial pentru Firebird.',
-    links: [
-      { label: 'Furnizori de suport comercial', href: 'https://firebirdsql.org/en/commercial-support/' },
-    ],
-  },
-  {
-    icon: '📚',
-    title: 'Documentație',
-    desc: 'Ghiduri complete, note de lansare și referințe SQL pentru auto-ajutorare.',
-    links: [
-      { label: 'Documentație Firebird', href: '/documentatie' },
-    ],
-  },
-  {
-    icon: '🐛',
-    title: 'Raportarea erorilor',
-    desc: 'Ați găsit o eroare în Firebird? Raportați-o în sistemul de urmărire a problemelor de pe GitHub.',
-    links: [
-      { label: 'Raportați o eroare pe GitHub', href: 'https://github.com/FirebirdSQL/firebird/issues' },
+    options: [
+      {
+        icon: '🏢',
+        title: 'Furnizori de suport',
+        desc: 'Incidente punctuale, abonamente de suport continuu și servicii speciale oferite de companii specializate.',
+        links: [
+          { label: 'Suport comercial Firebird', href: 'https://firebirdsql.org/en/support/' },
+          { label: 'IBPhoenix', href: 'https://firebirdsql.org/ibphoenix' },
+          { label: 'RED SOFT', href: 'https://firebirdsql.org/redsoft-red-soft' },
+        ],
+      },
     ],
   },
 ];
-
 function Support() {
   return (
     <main className="page-content">
@@ -72,33 +92,43 @@ function Support() {
           forumuri și sisteme de urmărire a problemelor. De asemenea, există mai mulți furnizori care
           oferă suport comercial profesional.
         </p>
-        <div className="support-grid">
-          {supportOptions.map((option, i) => (
-            <div key={i} className="support-card">
-              <div className="support-icon">{option.icon}</div>
-              <h2>{option.title}</h2>
-              <p>{option.desc}</p>
-              <ul>
-                {option.links.map((link, j) => (
-                  <li key={j}>
-                    {link.href.startsWith('/') ? (
-                      <a href={link.href}>{link.label}</a>
-                    ) : (
-                      <a href={link.href} target="_blank" rel="noopener noreferrer">
-                        {link.label}
-                      </a>
-                    )}
-                  </li>
-                ))}
-              </ul>
-            </div>
+        <nav className="support-nav" aria-label="Secțiuni suport">
+          {supportGroups.map((group) => (
+            <a key={group.id} href={'#' + group.id}>{group.title}</a>
           ))}
-        </div>
+        </nav>
+        {supportGroups.map((group) => (
+          <section key={group.id} id={group.id} className="support-section">
+            <h2 className="support-section-title">{group.title}</h2>
+            <div className="support-grid">
+              {group.options.map((option) => (
+                <div key={option.title} className="support-card">
+                  <div className="support-icon">{option.icon}</div>
+                  <h3>{option.title}</h3>
+                  <p>{option.desc}</p>
+                  <ul>
+                    {option.links.map((link) => (
+                      <li key={link.href}>
+                        {link.href.startsWith('/') ? (
+                          <a href={link.href}>{link.label}</a>
+                        ) : (
+                          <a href={link.href} target="_blank" rel="noopener noreferrer">
+                            {link.label}
+                          </a>
+                        )}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
+          </section>
+        ))}
         <div className="info-box">
           <h3>💡 Sfat</h3>
           <p>
             Înainte de a posta o întrebare, consultați{' '}
-            <a href="https://firebirdsql.org/en/faq-for-new-users/" target="_blank" rel="noopener noreferrer">
+            <a href="http://www.firebirdfaq.org/" target="_blank" rel="noopener noreferrer">
               FAQ-ul
             </a>{' '}
             și{' '}

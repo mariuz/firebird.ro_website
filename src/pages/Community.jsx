@@ -34,7 +34,7 @@ const communityLinks = [
     title: 'Conferința anuală Firebird',
     desc: 'Conferința anuală a comunității Firebird reunește utilizatori, dezvoltatori și furnizori de soluții din întreaga lume pentru prezentări, ateliere și networking.',
     links: [
-      { label: 'Informații conferință', href: 'https://firebirdsql.org/en/conference/' },
+      { label: 'Informații conferință', href: 'https://firebirdsql.org/en/events/' },
     ],
     icon: '🎤',
   },

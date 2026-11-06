@@ -16,7 +16,7 @@ const devResources = [
     title: 'Foaie de parcurs (Roadmap)',
     desc: 'Planurile pentru versiunile viitoare ale Firebird, funcționalitățile propuse și prioritățile de dezvoltare.',
     links: [
-      { label: 'Planuri de viitor Firebird', href: 'https://firebirdsql.org/en/road-map/' },
+      { label: 'Planuri de viitor Firebird', href: 'https://firebirdsql.org/en/roadmap' },
     ],
   },
   {
@@ -32,8 +32,8 @@ const devResources = [
     title: 'Ghid de contribuție',
     desc: 'Informații despre cum puteți contribui la proiectul Firebird: cod, documentație, testare și altele.',
     links: [
-      { label: 'Ghid de contribuție', href: 'https://github.com/FirebirdSQL/firebird/blob/master/CONTRIBUTING.md' },
-      { label: 'Documentație pentru contribuitori', href: 'https://firebirdsql.org/en/documentation-development/' },
+      { label: 'Codul sursă Firebird pe GitHub', href: 'https://github.com/FirebirdSQL/firebird' },
+      { label: 'Documentație pentru contribuitori', href: 'https://firebirdsql.org/en/development/' },
     ],
   },
   {
@@ -41,7 +41,7 @@ const devResources = [
     title: 'Construirea din sursă',
     desc: 'Instrucțiuni pentru compilarea Firebird din sursă pe diferite platforme.',
     links: [
-      { label: 'Instrucțiuni de compilare', href: 'https://github.com/FirebirdSQL/firebird/blob/master/builds/README' },
+      { label: 'Instrucțiuni de compilare', href: 'https://github.com/FirebirdSQL/firebird/blob/master/doc/README.build.cmake.md' },
     ],
   },
   {
