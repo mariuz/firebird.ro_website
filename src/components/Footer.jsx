@@ -39,7 +39,7 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a href="https://firebirdsql.org/en/firebird-mailing-lists/" target="_blank" rel="noopener noreferrer">
+                <a href="https://firebirdsql.org/en/mailing-lists/" target="_blank" rel="noopener noreferrer">
                   Liste de discuții
                 </a>
               </li>
