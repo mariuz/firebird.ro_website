@@ -6,8 +6,8 @@ const docSections = [
     title: 'Ghid de început rapid',
     desc: 'Instalarea Firebird, crearea primei baze de date și efectuarea primelor interogări SQL.',
     links: [
-      { label: 'Ghid de start rapid Firebird 3.0', href: 'http://www.firebirdsql.org/file/documentation/reference_manuals/user_manuals/html/qsg3.html' },
-      { label: 'Instalare Firebird', href: 'https://firebirdsql.org/en/getting-firebird/' },
+      { label: 'Ghid de start rapid Firebird 3.0', href: 'https://firebirdsql.org/file/documentation/html/en/firebirddocs/qsg3/firebird-3-quickstartguide.html' },
+      { label: 'Ghid de start rapid Firebird 5.0', href: 'https://firebirdsql.org/file/documentation/html/en/firebirddocs/qsg5/firebird-5-quickstartguide.html' },
     ],
   },
   {
@@ -31,7 +31,7 @@ const docSections = [
     title: 'Ghid de administrare',
     desc: 'Configurarea și administrarea unui server Firebird: securitate, backup, recuperare și monitorizare.',
     links: [
-      { label: 'Ghid administrare Firebird 3', href: 'https://firebirdsql.org/file/documentation/chunk/en/refdocs/fbadmin/firebird-admin.html' },
+      { label: 'Ghidul dezvoltatorului Firebird 3.0', href: 'https://firebirdsql.org/file/documentation/html/en/refdocs/fbdevgd30/firebird-30-developers-guide.html' },
     ],
   },
   {
